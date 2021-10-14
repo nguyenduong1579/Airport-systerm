@@ -1,13 +1,12 @@
-class plane{
+class airport{
     constructor(name){
         this.name = name
         if(name == undefined){
-            throw new Error("plane must have a name")
+            throw new Error("airport must have a name")
         }
         else{
             this.name = name
         }
     }
-    
 }
-module.exports = plane
+module.exports = airport
